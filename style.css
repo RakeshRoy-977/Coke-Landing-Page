@@ -14,16 +14,18 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    padding: 0px 20px;
     align-items: center;
     color: white;
-    margin: 20px 40px;
+    margin: 10px;
     height: 5vh;
+    /* background-color: aqua; */
 
 }
 
 .part2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 50vw;
 }
@@ -39,8 +41,8 @@ body {
 }
 
 .contant {
-    height: 90vh;
-    width: 100vw;
+    height: 80vh;
+    /* width: 100vw; */
     /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
@@ -49,11 +51,11 @@ body {
 
 .left {
     /* background-color: pink; */
-   
+    padding-top: 150px;
     width: 35%;
     height: 100%;
-    margin: 10px;
-    padding: 10px;
+    /* margin: 10px; */
+    /* padding: 20px; */
 }
 .left h1{
     color: white;
@@ -61,7 +63,10 @@ body {
     line-height: 90px;
 }
 .left p{
+    /* background-color: yellowgreen; */
     color: white;
+    width: 28rem;
+    opacity: 0.7;
    
 }
 .left h1 span{
@@ -69,27 +74,89 @@ body {
 }
 
 .center {
-    background-color: orangered;
-    width: 30%;
-    height: 100%;
+    /* background-color: orangered; */
+    width: 25%;
+    height: 85%;
 }
 
 .right {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 35%;
     height: 100%;
+
 }
 
 .tasteBtn{
     color: white;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 20px;
+    width: 150px;
+    border: none;
     background-color: red;
 }
 
 .art{
-    height: 80%;
+    margin-top: 80px;
+
+    height: 100%;
     width: 100%;
-    background-color: aquamarine;
-    padding-top: 10%;
+    border-top-left-radius: 50rem;
+    border-top-right-radius: 50rem;
+    background-image: url("https://www.diyneonsigns.com/wp-content/uploads/2019/12/Z429-COCA_COLA_NEON_SIGN_1024x1024-1.jpg");
+    background-size: 450%;
+    background-position: 30% 40%;
+    filter: blur(3px);
+    z-index: 99;
+}
+
+.bottel{
+    position: absolute;
+    /* left: 50%; */
+    /* transform: translate(-50%,0); */
+    /* top: 50px; */
+}
+
+.bottel img{
+    margin-top: 130px;
+    height: 41rem;
+}
+
+
+.elems{
+    
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 150px;
+    /* background-color: yellow; */
+    /* width: 65%; */
+    
+}
+
+.elems h2{
+    color: white;  
+}
+.elems i{
+    color: white;
+    font-size: 40px;  
+}
+.elems p{
+    color: white;
+}
+
+.ele1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+    opacity: 0.6;
+}
+.ele2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+    opacity: 0.6;
+}
+.ele3 p{    
+    opacity: 0.6;
 }
